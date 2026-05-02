@@ -554,7 +554,7 @@ export function ClubSelectionForm() {
                   {selectedClubsPreview.length ? (
                     <div className="overflow-hidden rounded-xl border border-[#e5e7eb] bg-white text-sm">
                       <div className="grid grid-cols-2 gap-4 bg-[#f3f4f6] px-4 py-3 text-xs uppercase tracking-[0.12em] text-[#6b7280]">
-                        <span>Domain</span>
+                        <span>Subjects</span>
                         <span>Topic</span>
                       </div>
                       <div className="divide-y divide-[#e5e7eb] bg-white">
