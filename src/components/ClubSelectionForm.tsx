@@ -555,7 +555,7 @@ export function ClubSelectionForm() {
                     <div className="overflow-hidden rounded-xl border border-[#e5e7eb] bg-white text-sm">
                       <div className="grid grid-cols-2 gap-4 bg-[#f3f4f6] px-4 py-3 text-xs uppercase tracking-[0.12em] text-[#6b7280]">
                         <span>Domain</span>
-                        <span>Club</span>
+                        <span>Topic</span>
                       </div>
                       <div className="divide-y divide-[#e5e7eb] bg-white">
                         {selectedClubsPreview.map((item, index) => (
@@ -604,7 +604,7 @@ export function ClubSelectionForm() {
                       </div>
                     </div>
                   ) : (
-                    <p className="text-[#6b7280]">No clubs selected yet.</p>
+                    <p className="text-[#6b7280]">No Topic selected yet.</p>
                   )}
                 </div>
               )}
@@ -630,7 +630,7 @@ export function ClubSelectionForm() {
                           ? "Duplicate Scholar IDs found. Please enter unique IDs for each student."
                           : !hasAtLeastOneStudent
                             ? "Please enter at least one Scholar ID before submitting."
-                            : `Please select a club before submitting.`}
+                            : `Please select a topic before submitting.`}
                   </DialogDescription>
                   {submitError && (
                     <div className="mt-3 rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-700">
